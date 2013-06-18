@@ -110,7 +110,7 @@ public class HelloPizzaChartActivity extends Activity {
         String content = null;
         try {
             AssetManager assetManager = getAssets();
-            InputStream in = assetManager.open("graph-test.html");
+            InputStream in = assetManager.open("hello-pizza-chart.html");
             byte[] bytes = readFully(in);
             content = new String(bytes, "UTF-8");
         } catch (IOException e) {
