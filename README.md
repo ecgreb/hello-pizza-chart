@@ -10,5 +10,7 @@ $ mvn clean install
 $ mvn android:deploy android:run
 ```
 
+![Hello Pizza Chart](screenshot.png "Hello Pizza Chart")
+
 [1]: https://developers.google.com/chart/
 [2]: https://developer.android.com/reference/android/webkit/WebView.html
