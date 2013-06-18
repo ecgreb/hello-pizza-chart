@@ -20,7 +20,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class HelloAndroidActivity extends Activity {
+public class HelloPizzaChartActivity extends Activity {
     private final String TAG = getClass().getSimpleName();
 
     public static final String ASSET_PATH = "file:///android_asset/";
