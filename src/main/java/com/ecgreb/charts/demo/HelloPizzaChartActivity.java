@@ -39,6 +39,7 @@ public class HelloPizzaChartActivity extends Activity {
         webView = (WebView) findViewById(R.id.web_view);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.setBuiltInZoomControls(true);
 
         mushroomsField = (EditText) findViewById(R.id.mushrooms);
         onionsField = (EditText) findViewById(R.id.onions);
